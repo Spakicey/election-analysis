@@ -63,7 +63,7 @@ Upon running the code for this election audit a file will be created containing 
 
 ![election_results](Resources/election_results.png)
 
-The followung sample of code was used in order to create and write to a newly created text file:
+The following sample of code was used in order to create and write to a new text file:
 ```python
 # Creates a new text file "election_analysis" and assigns it to the variable file_to_save
 file_to_save = os.path.join("analysis", "election_analysis.txt")
@@ -80,14 +80,6 @@ with open(file_to_save, "w") as txt_file:
   txt_file.write(election_results)
 ```
 
-## Election Audit Summary:
+## Election Audit Summary
 
 While this script was tailor-made for this local Colorado election, it could easily be made into a far more dynamic program that could handle audits for all kinds of elections. For example, if this script was to be used for a presidential election, one could modify the code to include various data points for each candidate such as the state they represent, the number of votes they receive in each state and county, a timeline of electoral votes based on when each state completes their election, information relating to which parties voted for which candidate, and much more.
-
-
-
-
-
-
-
-
